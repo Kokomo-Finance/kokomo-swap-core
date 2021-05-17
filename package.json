@@ -1,7 +1,7 @@
 {
   "name": "@kokomoswap-libs/kokomo-swap-core",
   "description": "🎛 Core contracts for the kokomo protocol",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
   },
@@ -33,12 +33,11 @@
     "precompile": "yarn clean",
     "compile": "waffle .waffle.json",
     "pretest": "yarn compile",
-    "test": "mocha",
-    "prepublishOnly": "yarn test"
+    "test": "mocha"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "@kokomoswap-libs/uikit": "^0.0.7",
+    "@kokomoswap-libs/uikit": "^0.0.1",
     "truffle": "^5.1.41",
     "truffle-flattener": "^1.4.4",
     "truffle-hdwallet-provider": "^1.0.17"

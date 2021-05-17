@@ -305,20 +305,6 @@
   dependencies:
     csstype "^3.0.2"
 
-"@kokomoswap-libs/uikit@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@kokomoswap-libs/uikit/-/uikit-0.0.7.tgz#f2dc0a5ff4a67f3e0e345bc0b4939997bfd14d23"
-  integrity sha512-zzV8JLwMvE4plUZwX6kK155uXMZhngiHk4z+AQoIx4J/BFQVkw9b7eR7rOpfstxZZ+Rm8rBrj6c4ZGpO6ojUnQ==
-  dependencies:
-    "@popperjs/core" "^2.9.2"
-    "@types/lodash" "^4.14.168"
-    "@types/styled-system" "^5.1.10"
-    lodash "^4.17.20"
-    react-popper "^2.2.5"
-    react-transition-group "^4.4.1"
-    rollup-plugin-import-css "^2.0.1"
-    styled-system "^5.1.5"
-
 "@web3-js/scrypt-shim@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@web3-js/scrypt-shim/-/scrypt-shim-0.1.0.tgz#0bf7529ab6788311d3e07586f7d89107c3bea2cc"
